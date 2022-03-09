@@ -1,0 +1,304 @@
+
+
+body{
+	background-color: #f8f8d9;
+	border-radius:25%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity:0.8;	
+	overflow: hidden;
+
+}
+
+#glavni{
+	width:765px;
+	height:620px;
+	border: solid black 3px;
+	margin:0px 400px 0 250px;
+	border-radius:3%;
+	background-color: white;
+}
+
+#okvir{
+ 	width: 700px;
+ 	height: 500px;
+ 	border:solid black 2px;
+ 	margin: auto;
+ 	font-size:0.8em;
+	
+}
+#okvir1{
+    width: 700px;
+    height: 50px;
+    border : 2px solid black;
+	border-bottom:1px;
+    margin-left: 31px;
+	margin-top: 20px;
+    position: relative;
+    
+}
+img{
+	height:40px;
+	width:40px;
+	outline: 1px solid black;
+	margin-left:10px;
+	margin-top:5px;
+	float:left;
+}
+
+.ena{
+	padding-left:10px;
+	font-size:0.8em;
+}
+
+.dva{
+	padding-left:10px;
+	font-size:0.8em;
+}
+.posta{
+	height:20px;
+	width:120px;	
+	border-bottom:1px solid black;
+	resize:none;
+	padding-left:10px;
+	margin-top:3px;
+	margin-left:2px;
+
+}
+
+
+
+.stevilka{
+	height:15px;
+	width:75px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	padding-left:10px;
+}
+
+.pooblastilo{
+ 	font-size:22px;
+	position: absolute;
+ 	top:0;
+ 	right:0;
+ 	transform: translate(-35%,-40%);
+
+}
+
+.pooblascam{
+	width:350px;
+	height:150px;
+	float:left;
+	padding-left:15px;
+	padding-top:10px;	
+}
+
+.Podpisi{
+	text-align:left;
+	width:351px;
+    height:150px;
+    margin-left: 350px;
+	padding-left:15px;
+	padding-top:10px;
+
+}
+
+.besedilo1{
+	text-align:none;
+	width:700px;
+	height:330px;
+	transform: translate(0%,-8%);
+	padding-left:15px;
+}
+
+.ime{
+	height:15px;
+	width:270px;
+	resize:none;
+	border:none;
+	border-bottom:1px solid black;
+}
+
+.ime1{
+	padding-right:10px;
+	height:15px;
+	width:200px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	
+}
+
+.ime2{
+	padding-right:10px;
+	height:15px;
+	width:200px;
+	border:none;
+	border-bottom:1px solid black ;
+	resize:none;
+	
+}
+
+.ime3{
+	height:15px;
+	width:550px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	
+	
+}
+
+.ime4{
+	height:15px;
+	width:200px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	
+}
+.ime5{
+	height:15px;
+	width:200px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	
+}
+
+.ime6{
+	height:15px;
+	width:200px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	
+}
+
+.ime8{
+	height:15px;
+	width:200px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	
+}
+.ime9{
+	height:15px;
+	width:200px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+}
+
+.ime10{
+		height:15px;
+	width:130px;
+	border:none;
+	border-bottom:1px solid black;
+	resize:none;
+	
+}
+
+
+.podbesedilo{
+	font-size:0.7em;
+	float:left;
+}
+
+.besedilo2{
+	height:150px;
+	width:450px;
+	transform:translate(0%,-90%);
+	padding:15px;
+	float:left;
+}
+
+.podpis{
+	height:150px;
+	width:250px;
+	float:right;
+	transform:translate(-10%,-240%);
+}
+
+.vrstica{
+	margin-top:0px;
+}
+	
+.date{
+	background-color:#f8f8d9;
+	border:none;
+	font-family: 'Times New Roman';
+	opacity: 0.9;
+	border-radius:5px;
+		}
+
+
+.slika{
+	width:100%;
+	height:100%;
+	opacity:0.5;
+}
+
+canvas#signature-pad {
+    background:white;
+    width: 100%;
+    height: 50%;
+    cursor: crosshair;
+	border-bottom: 100px;
+	border: 2px solid black;
+	border-radius:5px;
+
+
+}
+
+
+
+
+.container {
+  top: 50%;
+  left: 50%;
+	  width: 150px;
+  height:60px;
+  text-align: center;
+  font-family:  'Times New Roman';
+
+}
+
+#submit_button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px solid #000000;
+  color: #000000;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  transform: translate(225%,-450%);
+}
+#submit_button:hover {
+  color: white;
+  background: #f8f8d9;	
+}
+#submit_button:active {
+  letter-spacing: 2px;
+}
+#submit_button:after {
+ 
+  color:black;
+}
+
+
+
+#star:after {
+	content:" *";
+	color: red;
+	}
+  
